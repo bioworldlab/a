@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>BioWorld Dashboard - XXX</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!-- Bootstrap Core CSS -->
+<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <title>BioWorld Dashboard - XXX</title>
+<!-- MetisMenu CSS -->
+<link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="../dist/css/sb-admin-2.css" rel="stylesheet">
 
-    <!-- MetisMenu CSS -->
-    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <!-- Custom CSS -->
-    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -33,341 +30,475 @@
 </head>
 
 <body>
-
-    <div id="wrapper">
-
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">YOUR BIOWORLD DASHBOARD</a></div>
-            <!-- /.navbar-header -->
-
-            <ul class="nav navbar-top-links navbar-right">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-messages">
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <strong>Instructor</strong>
-                                    <span class="pull-right text-muted">
-                                        <em>5 min ago</em>
-                                    </span>
-                                </div>
-                                <div>The Cythia Case report is available now!</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <strong>BioWorld Dashboard Team</strong>
-                                    <span class="pull-right text-muted">
-                                        <em>Yesterday</em>
-                                    </span>
-                                </div>
-                                <div>The server has been upgraded for better response. Check it out now!</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>Read All Messages</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-messages -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-tasks">
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Overall Progress</strong>
-                                        <span class="pull-right text-muted">40% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                            <span class="sr-only">40% Complete (success)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Susan Case</strong>
-                                        <span class="pull-right text-muted">20% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                            <span class="sr-only">20% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Cynthia Case</strong>
-                                        <span class="pull-right text-muted">60% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                            <span class="sr-only">60% Complete (warning)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <p>
-                                        <strong>Amy Case</strong>
-                                        <span class="pull-right text-muted">80% Complete</span>
-                                    </p>
-                                    <div class="progress progress-striped active">
-                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                            <span class="sr-only">80% Complete (danger)</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>See All Tasks</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-tasks -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-alerts">
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-tasks fa-fw"></i> New Task
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a class="text-center" href="#">
-                                <strong>See All Alerts</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-alerts -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-user -->
-                </li>
-                <!-- /.dropdown -->
+<div id="wrapper"> 
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> </button>
+      <a class="navbar-brand" href="index.html">YOUR BIOWORLD DASHBOARD</a></div>
+    <!-- /.navbar-header -->
+    
+    <ul class="nav navbar-top-links navbar-right">
+      <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i> </a>
+        <ul class="dropdown-menu dropdown-messages">
+          <li> <a href="#"> <strong>Instructor</strong> <span class="pull-right text-muted"> <em>5 min ago</em> </span> The Cythia Case report is available now! </a> </li>
+          <li class="divider"></li>
+          <li> <a href="#"> <strong>BioWorld Dashboard Team</strong> <span class="pull-right text-muted"> <em>Yesterday</em> </span> The server has been upgraded for better response. Check it out now! </a> </li>
+          <li class="divider"></li>
+          <li> <a class="text-center" href="#"> <strong>Read All Messages</strong> <i class="fa fa-angle-right"></i> </a> </li>
+        </ul>
+        <!-- /.dropdown-messages --> 
+      </li>
+      <!-- /.dropdown -->
+      <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i> </a>
+        <ul class="dropdown-menu dropdown-tasks">
+          <li> <a href="#">
+            <p> <strong>Overall Progress</strong> <span class="pull-right text-muted">40% Complete</span> </p>
+            <div class="progress progress-striped active">
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"> <span class="sr-only">40% Complete (success)</span> </div>
+            </div>
+            </a> </li>
+          <li class="divider"></li>
+          <li> <a href="#">
+            <p> <strong>Susan Case</strong> <span class="pull-right text-muted">20% Complete</span> </p>
+            <div class="progress progress-striped active">
+              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"> <span class="sr-only">20% Complete</span> </div>
+            </div>
+            </a> </li>
+          <li class="divider"></li>
+          <li> <a href="#">
+            <p> <strong>Cynthia Case</strong> <span class="pull-right text-muted">60% Complete</span> </p>
+            <div class="progress progress-striped active">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> <span class="sr-only">60% Complete (warning)</span> </div>
+            </div>
+            </a> </li>
+          <li class="divider"></li>
+          <li> <a href="#">
+            <p> <strong>Amy Case</strong> <span class="pull-right text-muted">80% Complete</span> </p>
+            <div class="progress progress-striped active">
+              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> <span class="sr-only">80% Complete (danger)</span> </div>
+            </div>
+            </a> </li>
+          <li class="divider"></li>
+          <li> <a class="text-center" href="#"> <strong>See All Tasks</strong> <i class="fa fa-angle-right"></i> </a> </li>
+        </ul>
+        <!-- /.dropdown-tasks --> 
+      </li>
+      <!-- /.dropdown -->
+      <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i> </a>
+        <ul class="dropdown-menu dropdown-alerts">
+          <li> <a href="#"> <i class="fa fa-comment fa-fw"></i> New Comment <span class="pull-right text-muted small">4 minutes ago</span> </a> </li>
+          <li class="divider"></li>
+          <li> <a href="#"> <i class="fa fa-envelope fa-fw"></i> Message Sent <span class="pull-right text-muted small">4 minutes ago</span> </a> </li>
+          <li class="divider"></li>
+          <li> <a href="#"> <i class="fa fa-tasks fa-fw"></i> New Task <span class="pull-right text-muted small">4 minutes ago</span> </a> </li>
+          <li class="divider"></li>
+          <li> <a href="#"> <i class="fa fa-upload fa-fw"></i> Server Rebooted <span class="pull-right text-muted small">4 minutes ago</span> </a> </li>
+          <li class="divider"></li>
+          <li> <a class="text-center" href="#"> <strong>See All Alerts</strong> <i class="fa fa-angle-right"></i> </a> </li>
+        </ul>
+        <!-- /.dropdown-alerts --> 
+      </li>
+      <!-- /.dropdown -->
+      <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i> </a>
+        <ul class="dropdown-menu dropdown-user">
+          <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a> </li>
+          <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a> </li>
+          <li class="divider"></li>
+          <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a> </li>
+        </ul>
+        <!-- /.dropdown-user --> 
+      </li>
+      <!-- /.dropdown -->
+    </ul>
+    <!-- /.navbar-top-links -->
+    
+    <div class="navbar-default sidebar" role="navigation">
+      <div class="sidebar-nav navbar-collapse">
+        <ul class="nav" id="side-menu">
+          <li class="sidebar-search">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Search...">
+              <span class="input-group-btn">
+              <button class="btn btn-default" type="button"> <i class="fa fa-search"></i> </button>
+              </span> </div>
+            <!-- /input-group --> 
+          </li>
+          <li> <a href="index.html"><em class="fa fa-dashboard fa-fw"></em> Home</a></li>
+          <li> <a href="set_your_goals.html"><i class="fa fa-table fa-fw"></i> Set Your Goals</a> </li>
+          <li> <a href="about_you_as_a_learner.html"><i class="fa fa-table fa-fw"></i> About You As A Learner</a> </li>
+          <li> <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Your Case Reports</a>
+            <ul class="nav nav-second-level">
+              <li> <a href="report_amy_case.html">Amy Case</a> </li>
+              <li> <a href="report_cynthia_case.html">Cynthia Case</a> </li>
+              <li> <a href="report_susan_case.html">Susan Case</a> </li>
             </ul>
-            <!-- /.navbar-top-links -->
-
-            <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
-                    <ul class="nav" id="side-menu">
-                        <li class="sidebar-search">
-                            <div class="input-group custom-search-form">
-                                <input type="text" class="form-control" placeholder="Search...">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default" type="button">
-                                        <i class="fa fa-search"></i>
-                                    </button>
-                                </span>
-                            </div>
-                            <!-- /input-group -->
-                        </li>
-                        
-                        <li> <a href="index.html"><em class="fa fa-dashboard fa-fw"></em> Home</a></li>
-                        <li>
-                            <a href="set_your_goals.html"><i class="fa fa-table fa-fw"></i> Set Your Goals</a>
-                        </li>
-                        <li>
-                            <a href="about_you_as_a_learner.html"><i class="fa fa-table fa-fw"></i> About You As A Learner</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Your Case Reports<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="report_amy_case.html">Amy Case</a>
-                                </li>
-                                <li>
-                                    <a href="report_cynthia_case.html">Cynthia Case</a>
-                                </li>
-                                <li>
-                                    <a href="report_susan_case.html">Susan Case</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Compare Your Cases<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="compare_time_spent.html">Time Spent</a>
-                                </li>
-                                <li>
-                                    <a href="compare_evidence.html">Evidence + Lab Tests</a>
-                                </li>
-                                <li>
-                                    <a href="compare_review.html">Review</a>
-                                </li>
-                                <li>
-                                    <a href="compare_feedback.html">Feedback</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        
-                    </ul>
-                </div>
-                <!-- /.sidebar-collapse -->
-            </div>
-            <!-- /.navbar-static-side -->
-        </nav>
-
-        <!-- Page Content -->
-        <div id="page-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                      <h1 class="page-header">Blank</h1>
-                    </div>
-                  <div class="col-lg-12">
-                        <div class="panel-body">
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-pills">
-                                <li class="active"><a href="#home-pills" data-toggle="tab">Time Spent</a>
-                                </li>
-                                <li><a href="#profile-pills" data-toggle="tab">Evidence + Lab Tests</a>
-                                </li>
-                                <li><a href="#messages-pills" data-toggle="tab">Review</a>
-                                </li>
-                                <li><a href="#settings-pills" data-toggle="tab">Feedback</a>
-                                </li>
-                                <li><a href="#settings-pills" data-toggle="tab">Planning</a>
-                                </li>
-                            </ul>
-
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                                <div class="tab-pane fade in active" id="home-pills">
-                                    <h4>Home Tab</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                                <div class="tab-pane fade" id="profile-pills">
-                                    <h4>Profile Tab</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                                <div class="tab-pane fade" id="messages-pills">
-                                    <h4>Messages Tab</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                                <div class="tab-pane fade" id="settings-pills">
-                                    <h4>Settings Tab</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.col-lg-12 -->
-                    
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container-fluid -->
-        </div>
-        <!-- /#page-wrapper -->
-
+            <!-- /.nav-second-level --> 
+          </li>
+          <li> <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Compare Your Cases</a>
+            <ul class="nav nav-second-level">
+              <li> <a href="compare_time_spent.html">Time Spent</a> </li>
+              <li> <a href="compare_evidence.html">Evidence + Lab Tests</a> </li>
+              <li> <a href="compare_review.html">Review</a> </li>
+              <li> <a href="compare_feedback.html">Feedback</a> </li>
+            </ul>
+            <!-- /.nav-second-level --> 
+          </li>
+        </ul>
+      </div>
+      <!-- /.sidebar-collapse --> 
     </div>
-    <!-- /#wrapper -->
+    <!-- /.navbar-static-side --> 
+  </nav>
+  
+  <!-- Page Content -->
+  <div id="page-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Amy Case Report</h1>
+        </div>
+        <div class="col-lg-12">
+          <div class="panel-body"> 
+            <!-- Nav tabs -->
+            <ul class="nav nav-pills">
+              <li class="active"><a href="#home-pills" data-toggle="tab">Time Spent</a> </li>
+              <li><a href="#profile-pills" data-toggle="tab">Evidence + Lab Tests</a> </li>
+              <li><a href="#messages-pills" data-toggle="tab">Review</a> </li>
+              <li><a href="#settings-pills" data-toggle="tab">Feedback</a> </li>
+              <li><a href="#added-pills" data-toggle="tab">Planning</a> </li>
+            </ul>
+            
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane fade in active" id="home-pills">
+                <h3>Total Time Spent </h3>
+                <p>Each area allowed you to gather evidence, organize information, conduct research, and synthesize a diagnostic decision. Here is your total time spent within BioWorld during your diagnosis of this case: </p>
+                <div>
+                <blockquote>
+                  <p>---Time Output Here---</p>
+                </blockquote>
+                </div>
+                <div>
+                	<p>&nbsp;</p>
+                </div>
+                <h3>Time Spent in Areas</h3>
+                <p>Here is how much time you spent in each of the following areas within BioWorld during Case 1:</p>
+                <div>
+                <blockquote>
+                  <p>---Graph Output Here---</p>
+                </blockquote>
+				  </div>
+                <div>
+                <blockquote>
+                  <p>---Most Time Analysis Output Here---</p>
+                </blockquote>
+				  </div>
+               <div>
+                <blockquote>
+                  <p>---Least Time Analysis Output Here---</p>
+                </blockquote>
+				  </div>
+                <h4><strong><em>Reflection</em></strong></h4>
+                <p>Are these descriptions accurate in describing your actions in Bioworld?</p>
+                <div class="form-group">
+                  <select class="form-control">
+                    <option>Not accurate at all</option>
+                    <option>Somehow accurate</option>
+                    <option>Accurate</option>
+                    <option>Very Accurate</option>
+                  </select>
+                </div>
+                <p>Would you like to focus on spending more time in another area?</p>
+                <div class="form-group">
+                  <select class="form-control">
+                    <option>Yes</option>
+                    <option>No</option>
+                  </select>
+                </div>
+                <p>If Yes, which area would you like to focus on?</p>
+                <div class="form-group">
+                  <select class="form-control">
+                    <option>History</option>
+                    <option>Chart</option>
+                    <option>Library</option>
+                    <option>summarize</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+                <div>
+                	<p>&nbsp;</p>
+                </div>
+                <h3>Time Spent in Actions</h3>
+                <p>Here is how much time you spent on the following actions while trying to diagnose the patient in Case 1:</p>
+                <div>
+                <blockquote>
+                  <p>---Graph Output Here---</p>
+                </blockquote>
+				</div>
+                <h4><strong><em>Reflection</em></strong></h4>
+                <p>Was there any particular evidence that made you certain you would be matched with the expert solution?</p>
+                <div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <p>How do you think you could improve on the next case with selecting appropriate evidence?</p>
+                <div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <p><em>Here are some suggestions:</em></p>
+                <p><em>- Evaluate my specific goals for the next case to focus on selecting evidence</em></p>
+                <p><em>- Spending more time on reading the patient history</em></p>
+                <p><em>- Selecting more lab tests to identify which unrelated evidences to unlink</em></p>
+                <button type="submit" class="btn btn-default">Submit</button>
+                <div>
+                	<p>&nbsp;</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="profile-pills">
+                <h3>Percentage of Evidence Correct</h4>
+                <div>
+                <blockquote>
+                  <p>---Graph Output Here---</p>
+                </blockquote>
+				</div>
+             	<h3>Lab Tests</h3>
+             	<p>In this case, the number of lab tests you have ordered is:</p>
+             	<div>
+                <blockquote>
+                  <p>---Lab Tests Number Output Here---</p>
+                </blockquote>
+				</div>
+             	<div>
+                <blockquote>
+                  <p>---Lab Tests Number Analysis Output Here---</p>
+                </blockquote>
+				</div>
+             	<h4><strong><em>Reflection</em></strong></h4>
+             	<p>Do you think all of these lab tests were necessary to make your diagnostic decision?</p>
+             	<div class="form-group">
+                  <select class="form-control">
+                    <option>Yes</option>
+                    <option>No</option>
+                  </select>
+                </div>
+             	<p>If No, which lab tests would you have excluded?</p>
+             	<div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+             	<button type="submit" class="btn btn-default">Submit</button>
+             	<div>
+                	<p>&nbsp;</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="messages-pills">
+                <h3>Confidence in Hypothesis</h3>
+                <div>
+                <blockquote>
+                  <p>---Lab Tests Number Analysis Output Here---</p>
+                </blockquote>
+				</div>
+             	<div>
+                	<p>&nbsp;</p>
+                </div>
+                <h3>Perceived Difficulty</h3>
+                <p>You have indicated that you found this case to be:</p>
+                <div>
+                <blockquote>
+                  <p>---Perceived Difficulty Output Here---</p>
+                </blockquote>
+				</div>
+             	<h4><strong><em>Reflection</em></strong></h4>
+             	<p>Why were you confident/not confident in your final hypothesis?</p>
+             	<div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <P><em>Here are some suggestions:</em></P>
+                <P><em>- I had strong evidence to indicate that my hypothesis was correct.</em></P>
+                <P><em>- Results from the lab tests supported my main hypothesis.</em></P>
+                <P><em>- There were many possible evidences that confused me.</em></P>
+                <P><em>- I was unfamiliar with the symptoms of target disease.</em></P>
+                <button type="submit" class="btn btn-default">Submit</button>
+                <p>&nbsp;</p>
+                <p>What will you do next to support your confidence in selecting your hypothesis?</p>
+             	<div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <P><em>For example:</em></P>
+                <P><em>- Set goals related to accruing relevant evidence.</em></P>
+                <P><em>- Set goals related to ordering the appropriate lab tests.</em></P>
+                <P><em>- Consult the Library to understand the disease and patient case.</em></P>
+                <P><em>- Seek for help before selecting and submitting final diagnosis.</em></P>
+                <button type="submit" class="btn btn-default">Submit</button>
+               	<p>&nbsp;</p>
+               	<h3>Diagnosis</h3>
+               	<p>Your diagnosis of the patient was:</p>
+               	<div>
+                <blockquote>
+                  <p>---Diagnosis Correctness Output Here---</p>
+                </blockquote>
+				</div>
+              	<div>
+                <blockquote>
+                  <p>---Diagnosis Result Analysis Output Here---</p>
+                </blockquote>
+				</div>
+              	<p>&nbsp;</p>
+              	<h4><strong><em>Reflection</em></strong></h4>
+              	<p>Can you tell us what part was most challenging for you?</p>
+              	<div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+                <p>&nbsp;</p>
+              	<p>What would you do next if you face another challenging case?</p>
+             	<div class="form-group">
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <P><em>Here are some suggestions:</em></P>
+                <P><em>- Select attainable goals to achieve for the next case.</em></P>
+                <P><em>- Spend more time reviewing the patient history and ordering appropriate lab tests</em></P>
+                <P><em>- Corroborate all evidences and results from lab tests before making final diagnostic decision</em></P>
+                <P><em>- Attempt the case with a mindset that it’s a good learning experience</em></P>
+                <button type="submit" class="btn btn-default">Submit</button>
+                <p>&nbsp;</p>
+              </div>
+              <div class="tab-pane fade" id="settings-pills">
+                <h3>Emotions</h3>
+                <p>Your overall emotions once you received your results were:</p>
+                <div>
+                <blockquote>
+                  <p>---Emotion Output Here---</p>
+                </blockquote>
+				</div>
+            	<p>&nbsp;</p>
+             	<div>
+                <blockquote>
+                  <p>---Emotion Analysis Output Here---</p>
+                </blockquote>
+				</div>
+             	<p>&nbsp;</p>
+             	<h3>Time Spent on Feedback</h3>
+             	<p>The total time you spent on feedback is:</p>
+             	<div>
+                <blockquote>
+                  <p>---Time Spent on Feedback Output Here---</p>
+                </blockquote>
+				</div>
+             	<p>&nbsp;</p>
+             	<h4><strong><em>Reflection</em></strong></h4>
+             	<p>Is this an accurate reflection of your response to feedback?</p>
+             	<div class="form-group">
+                  <select class="form-control">
+                    <option>Not accurate at all</option>
+                    <option>Somehow accurate</option>
+                    <option>Accurate</option>
+                    <option>Very Accurate</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+                <p>&nbsp;</p>
+                <h3>Attitudes Towards Feedback</h3>
+                <p>Your attitudes towards the feedback that was being provided to you throughout the case can be viewed as following:</p>
+                <p>You've accepted feedback:</p>
+                <div>
+                <blockquote>
+                  <p>---Accept Feedback Output Here---</p>
+                </blockquote>
+				</div>
+                <p>You've modified/manipulated feedback:</p>
+                <div>
+                <blockquote>
+                  <p>---Modify Feedback Output Here---</p>
+                </blockquote>
+				</div>
+                <p>You've rejected feedback:</p>
+                <div>
+                <blockquote>
+                  <p>---Reject Feedback Output Here---</p>
+                </blockquote>
+				</div>
+             	<p>&nbsp;</p>
+              </div>
+            <div class="tab-pane fade" id="added-pills">
+            <p>&nbsp;</p>
+            <p>For your upcoming case, please pick the top three goals you would like to concentrate on:</p>
+            <div class="form-group">                             
+               <div class="checkbox">
+                  <label>
+                     <input type="checkbox" value="">Order an appropriate number of lab tests
+                  </label>
+               </div>
+               <div class="checkbox">
+                  <label>
+                     <input type="checkbox" value="">Ask for an appropriate amount of evidence
+                  </label>
+               </div>
+               <div class="checkbox">
+                  <label>
+                     <input type="checkbox" value="">Spend an appropriate amount of time on the feedback provided after the case is done
+                  </label>
+               </div>
+               <div class="checkbox">
+                  <label>
+                     <input type="checkbox" value="">Ask for an appropriate number of consultations
+                  </label>
+               </div>
+               <div class="checkbox">
+                  <label>
+                     <input type="checkbox" value="">Visit the Library for more research about the case
+                  </label>
+               </div>
+               <div class="checkbox">
+                  <label>
+                     <input type="checkbox" value="">Generate more hypotheses
+                  </label>
+               </div>                             
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            <p>&nbsp;</p>
+            <p>Briefly explain why you chose to concentrate on each of the following goals for your next case:</p>
+            <p>Order an appropriate number of lab tests</p>
+            <div class="form-group">
+                  <textarea class="form-control" rows="4"></textarea>
+            </div>
+            <p>Ask for an appropriate amount of evidence</p>
+            <div class="form-group">
+                  <textarea class="form-control" rows="4"></textarea>
+            </div>
+            <p>Spend an appropriate amount of time on the feedback provided after the case is done</p>
+            <div class="form-group">
+                  <textarea class="form-control" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+            <p>&nbsp;</p>
+            </div>
+            </div>
+          </div>
+          <!-- /.panel body --> 
+        </div>
+        <!-- /.col-lg-12 --> 
+        
+      </div>
+      <!-- /.row --> 
+    </div>
+    <!-- /.container-fluid --> 
+  </div>
+  <!-- /#page-wrapper --> 
+  
+</div>
+<!-- /#wrapper --> 
 
-    <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
+<!-- jQuery --> 
+<script src="../vendor/jquery/jquery.min.js"></script> 
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Bootstrap Core JavaScript --> 
+<script src="../vendor/bootstrap/js/bootstrap.min.js"></script> 
 
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+<!-- Metis Menu Plugin JavaScript --> 
+<script src="../vendor/metisMenu/metisMenu.min.js"></script> 
 
-    <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
-
+<!-- Custom Theme JavaScript --> 
+<script src="../dist/js/sb-admin-2.js"></script>
 </body>
-
 </html>
