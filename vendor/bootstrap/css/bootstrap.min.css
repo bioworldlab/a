@@ -1084,6 +1084,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
+/*	color: #2E3848;*/
     background-color: #fff
 }
 button,
@@ -4582,15 +4583,18 @@ textarea.input-group-sm>.input-group-btn>.btn {
     }
 }
 .navbar-default {
-    background-color: #f8f8f8;
-    border-color: #e7e7e7
+/*    background-color: #f8f8f8;*/ /* edited */
+	background-color: #07283B; /*top bar and side non-highlighted */
+/*    border-color: #e7e7e7*/
+	border-color: #07283B;
 }
 .navbar-default .navbar-brand {
-    color: #777
+/*    color: #777*/
+	color: #94AFA9; /*title i.e. YOUR BIOWORLD DASHBOARD*/
 }
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
-    color: #5e5e5e;
+    color: #FFFFFF; /*title when hovered*/
     background-color: transparent
 }
 .navbar-default .navbar-text {
@@ -5773,7 +5777,11 @@ button.list-group-item-danger.active:hover {
     border-bottom: 1px solid #ddd
 }
 .panel-default {
-    border-color: #ddd
+	/*border on notifications panel -- around boxes */
+	border-color: #ddd;
+	
+	margin: 0px; /*edited*/
+	padding: 10px;
 }
 .panel-default>.panel-heading {
     color: #333;
