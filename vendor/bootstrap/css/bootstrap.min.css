@@ -10,8 +10,16 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
+
+.sidepanel {
+	color: white;
+}
+
 body {
-    margin: 0
+    margin: 0;
+	
+/*	 edited - i added these fields */
+/*	background-color: aqua;*/
 }
 article,
 aside,
@@ -189,6 +197,14 @@ th {
     padding: 0
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+
+/* edited - i added this... idk if wrapper div actually has a CSS */
+/*
+.wrapper { 
+	background-color: #000000;
+	color: #000000;
+}
+*/
 
 @media print {
     *,
@@ -4078,7 +4094,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #eee
+/*    background-color: #eee*/
+/*	edited -- selected tab */
+	background-color:#24AE98;
 }
 .nav>li.disabled>a {
     color: #777
@@ -4610,9 +4628,14 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover{
     color: #555;
     background-color: #e7e7e7
+	/*edited - #e7e7e7 original */
+	
 }
 .navbar-default .navbar-nav>.disabled>a,
 .navbar-default .navbar-nav>.disabled>a:focus,
@@ -4634,12 +4657,14 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-form {
     border-color: #e7e7e7
 }
+/*
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
     color: #555;
     background-color: #e7e7e7
 }
+*/
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: #777
@@ -5780,8 +5805,12 @@ button.list-group-item-danger.active:hover {
 	/*border on notifications panel -- around boxes */
 	border-color: #ddd;
 	
-	margin: 0px; /*edited*/
+	/*edited*/
+/*
+	margin: 0px;
 	padding: 10px;
+*/
+
 }
 .panel-default>.panel-heading {
     color: #333;
