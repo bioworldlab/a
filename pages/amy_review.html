@@ -322,39 +322,102 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header">Time Spent in Amy Case</h1>
+          <h1 class="page-header">Review of Correctness</h1>
         </div>
         <div class="col-lg-12">
           <div class="panel-body"> 
             <!-- Nav tabs -->
             <ul class="nav nav-pills">
-              <li class="active"><a href="#home-pills" data-toggle="tab">Time Spent</a> </li>
-              <li><a href="#profile-pills" data-toggle="tab">Evidence + Lab Tests</a> </li>
-              <li><a href="#messages-pills" data-toggle="tab">Review</a> </li>
-              <li><a href="#settings-pills" data-toggle="tab">Feedback</a> </li>
-              <li><a href="#added-pills" data-toggle="tab">Planning</a> </li>
+              <li class="active"><a href="#correct-pills" data-toggle="tab">Percentage of evidence correct</a> </li>
+              <li><a href="#lab-pills" data-toggle="tab">Lab tests</a> </li>
+              <li><a href="#confidence-pills" data-toggle="tab">Confidence in Hypothesis</a> </li>
+              <li><a href="#difficulty-pills" data-toggle="tab">Perceived difficulty</a> </li>
+              <li><a href="#diagnosis-pills" data-toggle="tab">Diagnosis correctness</a> </li>
             </ul>
             
             <!-- Tab panes -->
             <div class="tab-content">
-				<div class="tab-pane fade in active" id="home-pills">
-					hello
+				<div class="tab-pane fade in active" id="correct-pills">
+					<h3>Percentage of Evidence Correct</h3>
+					<blockquote><p>---Graph Output Here---</p></blockquote>
 				</div>
+				
 
-				<div class="tab-pane fade" id="profile-pills">
-					something
+				<div class="tab-pane fade" id="lab-pills">
+					<p>In this case, the number of lab tests you have ordered is:</p>
+					<blockquote><p>---Lab Tests Number Output Here---</p></blockquote>
+					<blockquote><p>---Lab Tests Number Analysis Output Here---</p></blockquote>
+					<h4><strong><em>Reflection</em></strong></h4>
+					<p>Do you think all of these lab tests were necessary to make your diagnostic decision?</p>
+					<div class="form-group">
+					  <select class="form-control">
+					  	<option>--Select one--</option>
+						<option>Yes</option>
+						<option>No</option>
+					  </select>
+					</div>
+					<p>If No, which lab tests would you have excluded?</p>
+					<div class="form-group">
+					  <textarea class="form-control" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
 				</div>
                 
-				<div class="tab-pane fade" id="messages-pills">
-					something else
+				<div class="tab-pane fade" id="confidence-pills">
+					<p>Your confidence in your hypothesis:</p>
+					<blockquote><p>---Lab Tests Number Analysis Output Here---</p></blockquote>
 				</div>
                 
-				<div class="tab-pane fade" id="settings-pills">
-					another thing
+				<div class="tab-pane fade" id="difficulty-pills">
+					<p>You have indicated that you found this case to be:</p>
+					<blockquote><p>---Perceived Difficulty Output Here---</p></blockquote>
+					<h4><strong><em>Reflection</em></strong></h4>
+					<p>Why were you confident/not confident in your final hypothesis?</p>
+					<div class="form-group">
+					  <textarea class="form-control" rows="3"></textarea>
+					</div>
+					<p><em>Here are some suggestions:</em></p>
+					<p><em>- I had strong evidence to indicate that my hypothesis was correct.</em></p>
+					<p><em>- Results from the lab tests supported my main hypothesis.</em></p>
+					<p><em>- There were many possible evidences that confused me.</em></p>
+					<p><em>- I was unfamiliar with the symptoms of target disease.</em></p>
+					<button type="submit" class="btn btn-default">Submit</button>
+					<br>
+					<p>What will you do next to support your confidence in selecting your hypothesis?</p>
+					<div class="form-group">
+					  <textarea class="form-control" rows="3"></textarea>
+					</div>
+					<p><em>For example:</em></p>
+					<p><em>- Set goals related to accruing relevant evidence.</em></p>
+					<p><em>- Set goals related to ordering the appropriate lab tests.</em></p>
+					<p><em>- Consult the Library to understand the disease and patient case.</em></p>
+					<p><em>- Seek for help before selecting and submitting final diagnosis.</em></p>
+					<button type="submit" class="btn btn-default">Submit</button>
 				</div>
                 
-				<div class="tab-pane fade" id="added-pills">
-					oranges
+				<div class="tab-pane fade" id="diagnosis-pills">
+					<p>Your diagnosis of the patient was:</p>
+					<blockquote><p>---Diagnosis Correctness Output Here---</p></blockquote>
+					<blockquote><p>---Diagnosis Result Analysis Output Here---</p></blockquote>
+					<br>
+					<h4><strong><em>Reflection</em></strong></h4>
+					<p>Can you tell us what part was most challenging for you?</p>
+					<div class="form-group">
+					  <textarea class="form-control" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+					<br>
+					<p>What would you do next if you face another challenging case?</p>
+					<div class="form-group">
+					  <textarea class="form-control" rows="3"></textarea>
+					</div>
+					<p><em>Here are some suggestions:</em></p>
+					<p><em>- Select attainable goals to achieve for the next case.</em></p>
+					<p><em>- Spend more time reviewing the patient history and ordering appropriate lab tests</em></p>
+					<p><em>- Corroborate all evidences and results from lab tests before making final diagnostic decision</em></p>
+					<p><em>- Attempt the case with a mindset that it’s a good learning experience</em></p>
+					<button type="submit" class="btn btn-default">Submit</button>
+					<br>
 				</div>
             </div>
           </div>
