@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  background-color: #f8f8f8;
+  background-color: #082D42;
 }
 #wrapper {
   width: 100%;
@@ -19,7 +19,7 @@ body {
     position: inherit;
     margin: 0 0 0 250px;
     padding: 0 30px;
-    border-left: 1px solid #e7e7e7;
+    border-left: 1px solid white;
   }
 }
 .navbar-top-links {
@@ -75,10 +75,10 @@ body {
   padding: 15px;
 }
 .sidebar ul li {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #082D42;
 }
 .sidebar ul li a.active {
-  background-color: #eeeeee;
+  background-color: #25af98; /* edited: selected tab */
 }
 .sidebar .arrow {
   float: right;
